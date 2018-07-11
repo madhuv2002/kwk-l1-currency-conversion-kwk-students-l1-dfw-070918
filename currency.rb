@@ -62,21 +62,21 @@ choice = gets.chomp().to_i
  
 case choice
 when 1
-  #code here
+  puts usd_to_eur
 when 2
-  #code here
+  puts usd_to_jpy
 when 3
-  #code here
+  puts usd_to_gbp
 when 4
-  #code here
+  puts usd_to_aud
 when 5
-  #code here
+  puts eur_to_usd
 when 6
-  #code here
+  puts jpy_to_usd
 when 7
-  #code here
+  puts gbp_to_usd
 when 8
-  #code here
+  puts aud_to_usd
 else
   puts "Invalid input, exiting..."
 end
