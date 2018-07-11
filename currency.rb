@@ -79,6 +79,5 @@ when 8
   puts aud_to_usd
 else
   puts "Invalid input, exiting..."
-end
 end 
 
